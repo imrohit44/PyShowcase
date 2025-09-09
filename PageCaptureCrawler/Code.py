@@ -42,7 +42,6 @@ class WebCrawler:
         self.cache = LRUCache(cache_capacity)
         
     def _worker(self):
-        # Setup Selenium headless browser (Chrome)
         chrome_options = Options()
         chrome_options.add_argument('--headless')
         chrome_options.add_argument('--disable-gpu')
@@ -60,7 +59,6 @@ class WebCrawler:
                     self.visited.add(url)
 
                 print(f"Crawling: {url}")
-                # Take screenshot and save locally
                 try:
                     driver.get(url)
                     screenshot_dir = "screenshots"
