@@ -12,8 +12,12 @@ Generates a mind map from the section structure of a Wikipedia page for a given 
 ### 3. ToneType
 Converts text into a sequence of beeps using the Windows `winsound` library. Each character in the input text is mapped to a unique beep frequency, allowing you to "hear" the text as tones.
 
+
 ### 4. LiveAudioPlot
 Visualizes live microphone input as a real-time ASCII bar graph in the terminal. The height of the bar represents the audio volume detected from the microphone.
+
+### 5. MatrixTerminal
+Creates a "Matrix rain" effect in your terminal window by continuously printing random symbols across the width of your terminal, simulating the iconic digital rain from the Matrix movies.
 
 ---
 Each project has its own folder and README with details, requirements, and usage instructions.
